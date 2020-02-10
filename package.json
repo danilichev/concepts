@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "start": "nodemon --exec babel-node",
+    "start:ts": "nodemon --exec ts-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "V. Danilichev",
@@ -14,7 +15,10 @@
     "@babel/core": "^7.8.3",
     "@babel/node": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
+    "@types/node": "^13.7.0",
     "nodemon": "^2.0.2",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
   }
 }
